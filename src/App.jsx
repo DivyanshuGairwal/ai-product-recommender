@@ -54,7 +54,7 @@ function App() {
           <textarea
             value={preference}
             onChange={(e) => setPreference(e.target.value)}
-            placeholder="Example: I want a phone under $500 with a good camera..."
+            placeholder="Example: I want a phone under ₹40,000 with good battery life and a great camera..."
           />
 
           <button onClick={getRecommendations} disabled={loading}>
