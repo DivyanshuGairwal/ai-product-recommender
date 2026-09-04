@@ -74,7 +74,7 @@ function App() {
               <p>{product.description}</p>
 
               <div className="product-bottom">
-                <strong>${product.price}</strong>
+                <strong>₹{product.price.toLocaleString("en-IN")}</strong>
                 <span>⭐ {product.rating}</span>
               </div>
             </div>
